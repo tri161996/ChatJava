@@ -1,0 +1,57 @@
+package trinm;
+
+import java.io.Serializable;
+
+public class Data implements Serializable{
+    private static final long serialVersionUID = 1L;
+    public String type, sender, content, recipient1;
+    public String recipient2 = "";
+    public String recipient3 = "";
+    public String recipient4 = "";
+    public String recipient5 = "";
+    
+    public Data(String type, String sender, String content, String recipient1){
+        this.type = type;
+        this.sender = sender;
+        this.content = content;
+        this.recipient1 = recipient1;
+    }
+    
+    public Data(String type, String sender, String content, String recipient1, String recipient2){
+        this.type = type;
+        this.sender = sender;
+        this.content = content;
+        this.recipient1 = recipient1;
+        this.recipient2 = recipient2;
+    }
+    
+    public Data(String type, String sender, String content, String recipient1, String recipient2, String recipient3){
+        this.type = type;
+        this.sender = sender;
+        this.content = content;
+        this.recipient1 = recipient1;
+        this.recipient2 = recipient2;
+        this.recipient3 = recipient3;
+    }
+    
+    public Data(String type, String sender, String content, String recipient1, String recipient2, String recipient3, String recipient4){
+        this.type = type;
+        this.sender = sender;
+        this.content = content;
+        this.recipient1 = recipient1;
+        this.recipient2 = recipient2;
+        this.recipient3 = recipient3;
+        this.recipient4 = recipient4;
+    }
+    
+    public Data(String type, String sender, String content, String recipient1, String recipient2, String recipient3, String recipient4, String recipient5){
+        this.type = type;
+        this.sender = sender;
+        this.content = content;
+        this.recipient1 = recipient1;
+        this.recipient2 = recipient2;
+        this.recipient3 = recipient3;
+        this.recipient4 = recipient4;
+        this.recipient5 = recipient5;
+    }
+}
